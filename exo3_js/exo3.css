@@ -1,0 +1,63 @@
+/*Global*/
+
+.background{
+    width: 1000px;
+    height: 1000px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(165, 42, 42, 0.144);   
+}
+#morpion{
+    width: 640px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.result{
+    position: absolute;
+    top: 30px;
+    box-shadow: 0px 2px 10px black;
+    border-radius: 10px;
+    background-color: rgba(195, 209, 209, 0.648);
+    width: 500px;
+    height: 120px;
+    display: none;
+    
+}
+.show_result{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.case{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(154, 195, 231, 0.507);
+    box-shadow: 0px 2px 10px black;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player1{
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+}
+.player2{
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}

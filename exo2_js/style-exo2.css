@@ -1,0 +1,62 @@
+/* Global*/
+.container{
+    height: 440px;
+    width: 440px;
+    margin: 200px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+div{
+   
+    height: 200px;
+    width: 200px;
+    font-size: 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling des blocks*/
+
+.block1{
+    background-color: brown;
+    color: blue;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transform: rotate(-45deg);
+    z-index: 2;
+    transition: all .7s ease;
+}
+.block2, .block3, .block4{
+    background-color: rgb(136, 174, 136);
+    color: rgb(255, 255, 255);
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    position: relative;
+     z-index: 1;
+     transition: all .7s ease;
+}
+
+/*stylling toggle*/
+.vert{
+    background-color: rgb(136, 174, 136);
+    color: rgb(255, 255, 255);
+    transform: rotate(315deg);
+    scale: 90%;
+    transition: all .7 ease;
+    z-index: 2;
+   
+}
+.rouge{
+    background-color: brown;
+    color: blue;
+    transform: rotate(360deg);
+    scale: 90%;
+    transition: all .7 ease;
+    z-index: 2;
+}
